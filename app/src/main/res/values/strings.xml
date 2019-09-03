@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndroidMultiModule</string>
+    <string name="title_dynamicfeature1">DynamicFeature1</string>
+    <string name="title_dynamicfeature2">DynamicFeature2</string>
+</resources>
