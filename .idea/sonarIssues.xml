@@ -8,6 +8,36 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../android-dynamic-features/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-dynamic-features/app/src/main/java/com/google/android/samples/dynamicfeatures/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-dynamic-features/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-dynamic-features/features/native/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-dynamic-features/instant/split/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../android-dynamic-features/instant/url/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
           <value>
             <set />
@@ -23,7 +53,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/br/com/luisfelipeas5/androidmultimodule/BaseActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/br/com/luisfelipeas5/androidmultimodule/BaseFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/br/com/luisfelipeas5/androidmultimodule/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/br/com/luisfelipeas5/androidmultimodule/NavigationHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/br/com/luisfelipeas5/androidmultimodule/Router.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/br/com/luisfelipeas5/androidmultimodule/RouterHelper.kt">
           <value>
             <set />
           </value>
@@ -53,12 +113,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/dynamicfeature1/src/main/java/br/com/luisfelipeas5/dynamicfeature1/DynamicFeature1Activity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dynamicfeature1/src/main/java/br/com/luisfelipeas5/dynamicfeature1/Feature1Fragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/dynamicfeature1/src/main/res/layout/activity_dynamic_1_feature.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/dynamicfeature2/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dynamicfeature2/src/main/java/br/com/luisfelipeas5/dynamicfeature2/DynamicFeature2Activity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/dynamicfeature2/src/main/java/br/com/luisfelipeas5/dynamicfeature2/Feature2Fragment.kt">
           <value>
             <set />
           </value>
@@ -78,7 +158,137 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/model/domain/groups/Car.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/model/domain/pushnotification/PushNotification.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/model/domain/rent/Rent.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/model/domain/rentnotification/RentNotification.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/model/helper/api/ApiHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/model/helper/api/ApiMapper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/model/helper/api/RetrofitApiHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/model/helper/api/service/ApiService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/model/helper/api/service/ApiServiceMethods.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/model/helper/api/service/MockedApiService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/model/helper/pushNotification/CustomNotificationOpenedHandler.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/model/helper/pushNotification/OneSignalPushNotificationHelper.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/carDetail/CarDetailInteractor.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/carDetail/CarDetailPresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/expensedetail/ExpenseDetailPresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/maintenance/MaintenanceFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/maintenance/MaintenancePresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/myCars/MyCarsAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/pendingCar/PendingCarPresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/renewal/RenewalPresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/trafficTicketDetail/TrafficTicketDetailContract.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/trafficTicketDetail/TrafficTicketDetailFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/trafficTicketDetail/TrafficTicketDetailInteractor.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/trafficTicketDetail/TrafficTicketDetailPresenter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../lm-aluguel-veiculos-android/app/src/main/java/br/com/lmfrotas/aluguelveiculos/screens/trafficTickets/TrafficTicketsFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.kt">
           <value>
             <set />
           </value>

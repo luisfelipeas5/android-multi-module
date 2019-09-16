@@ -1,10 +1,10 @@
 package br.com.luisfelipeas5.androidmultimodule
 
-import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavDeepLinkBuilder
+import androidx.navigation.findNavController
 import com.google.android.play.core.splitcompat.SplitCompat
 import com.google.android.play.core.splitinstall.*
 
@@ -12,15 +12,11 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var splitInstallManager: SplitInstallManager
 
-    override fun attachBaseContext(newBase: Context?) {
-        super.attachBaseContext(newBase)
-        SplitCompat.install(this)
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         splitInstallManager = SplitInstallManagerFactory.create(this)
+        SplitCompat.install(this)
 
         val dynamicFeature1 = getString(R.string.title_dynamicfeature1)
         if (splitInstallManager.installedModules.contains(dynamicFeature1)) {
@@ -38,8 +34,10 @@ class MainActivity : AppCompatActivity() {
         splitInstallManager.registerListener(listener)
         splitInstallManager.startInstall(request)
             .addOnFailureListener { exception: Exception? ->
-                exception?.printStackTrace()
-                Toast.makeText(this, exception?.message, Toast.LENGTH_LONG).show()
+                if (exception is SplitInstallException) {
+                    exception.printStackTrace()
+                    Toast.makeText(this, exception.message, Toast.LENGTH_LONG).show()
+                }
             }
             .addOnSuccessListener { startDynamicFeature1() }
             .addOnCompleteListener {}
@@ -53,10 +51,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun startDynamicFeature1() {
-        val pendingIntent = NavDeepLinkBuilder(this)
-            .setGraph(R.navigation.nav_graph)
-            .setDestination(R.id.deepLink1)
-            .createPendingIntent()
-
+        setContentView(R.layout.activity_main)
     }
 }

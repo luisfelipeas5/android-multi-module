@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@+id/dinamyc1"
     android:id="@+id/nav_graph">
-    <deepLink
-        android:id="@+id/deepLink1"
-        app:uri="androidmultimodule://dynamicfeature1" />
+
+    <fragment android:id="@+id/dinamyc1"
+        android:name="br.com.luisfelipeas5.dynamicfeature1.Feature1Fragment"/>
+
+    <fragment android:id="@+id/dinamyc2"
+        android:name="br.com.luisfelipeas5.dynamicfeature2.Feature2Fragment"/>
+
 </navigation>

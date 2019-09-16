@@ -25,11 +25,6 @@ android {
     dynamicFeatures = [":dynamicfeature1", ":dynamicfeature2"]
 
 
-
-
-    
-
-
 }
 
 dependencies {
@@ -42,6 +37,6 @@ dependencies {
 
     api 'com.google.android.play:core:1.6.1'
 
-    implementation "androidx.navigation:navigation-fragment-ktx:2.0.0"
-    implementation "androidx.navigation:navigation-ui-ktx:2.0.0"
+    api "androidx.navigation:navigation-fragment-ktx:2.0.0"
+    api "androidx.navigation:navigation-ui-ktx:2.0.0"
 }

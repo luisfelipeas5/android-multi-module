@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="br.com.luisfelipeas5.dynamicfeature1"
-    split="DynamicFeature1">
+    package="br.com.luisfelipeas5.dynamicfeature1">
 
     <dist:module
         dist:instant="false"
-        dist:onDemand="true"
+        dist:onDemand="false"
         dist:title="@string/title_dynamicfeature1">
-        <dist:delivery>
-            <dist:on-demand />
-        </dist:delivery>
-
         <dist:fusing dist:include="true" />
     </dist:module>
 
@@ -23,7 +18,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <!-- Accepts URIs that begin with "androidmultimodule://dynamicfeature1” -->
-                <data android:scheme="androidmultimodule"
+                <data android:scheme="project"
                     android:host="dynamicfeature1" />
             </intent-filter>
 
